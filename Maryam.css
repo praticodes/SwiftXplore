@@ -1,0 +1,38 @@
+<!-- Made using: https://developers.google.com/maps/documentation/javascript/directions#DraggableDirections -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reading Break Exploration</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- playground-hide -->
+    <script>
+      const process = { env: {} };
+      process.env.GOOGLE_MAPS_API_KEY =
+        "AIzaSyCs9tRhE4LivvTeP0lNwatI7MSLkY-qaEo";
+    </script>
+    <!-- playground-hide-end -->
+
+    <link rel="stylesheet" type="text/css" href="Maryam.css" />
+    <script type="module" src="Maryam.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="map"></div>
+      <div id="sidebar">
+        <p>Total Distance: <span id="total"></span></p>
+        <div id="panel"></div>
+      </div>
+    </div>
+
+    <!-- 
+     The `defer` attribute causes the callback to execute after the full HTML
+     document has been parsed. For non-blocking uses, avoiding race conditions,
+     and consistent behavior across browsers, consider loading using Promises
+     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs9tRhE4LivvTeP0lNwatI7MSLkY-qaEo&callback=initMap&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
