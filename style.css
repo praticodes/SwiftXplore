@@ -1,0 +1,90 @@
+.body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.title{
+    padding:4rem;
+    text-align: center;
+}
+.main-title{
+    padding:4rem;
+    text-align:center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: #42C2FF;
+}
+
+
+.fea{
+    color:#42C2FF;
+    margin-bottom:1.5rem;
+}
+.fea:hover{
+    color:#85F4FF;
+}
+
+#main-three{
+    height:30rem;
+}
+
+.col-lg-4{
+    text-align: center;
+    line-height: 2;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+
+.first{
+    background-image: url("https://previews.123rf.com/images/dezydezy/dezydezy1704/dezydezy170400014/75178373-city-gps-map-background-with-river-and-roads-.jpg");
+    height:10rem;
+  
+}
+
+#pricing{
+    padding: 5rem;
+    text-align: center;
+}
+.pricing-card{
+    padding: 2rem;
+}
+#Food{
+    text-align: center;
+    background-color: #42C2FF;
+    padding: 3rem;
+}
+#Entertainment{
+    text-align: center;
+    padding: 3rem;
+}
+#Nature{
+   text-align: center;
+   background-color: #42C2FF;
+   padding: 3rem;
+} 
+.final-button{
+    margin-left:50rem;
+}
+       
+@media (max-width:1028px){
+    #Food{
+        margin-top:5rem;
+    }
+}
+
+#OutputButton {
+  margin-right:10px;
+  
+}
+
+#counter {
+  color: aliceblue;
+}
+.pin{
+  color:aliceblue;
+}
